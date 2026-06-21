@@ -1,0 +1,13 @@
+class Monster:
+    def __init__ (self, name, hp, dmg):
+        self.name = name
+        self.hp = hp
+        self.dmg = dmg
+    
+    def show_info(self):
+        print(self.name)
+        print(f"❤️{self.hp}")
+        print(f"⚔️{self.dmg}")
+        
+monster = Monster("Горгулья", 120, 10)
+monster.show_info()
