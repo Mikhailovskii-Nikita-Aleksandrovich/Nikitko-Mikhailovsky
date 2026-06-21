@@ -1,0 +1,56 @@
+1)
+n = int(input())
+odd_numbers = (i for i in range(1, n + 1, 2)
+print(odd_numbers)
+
+2)
+prices = 1500, 500, 2000, 3500, 1000, 4500
+
+max_prices = max(prices)
+print(f"самый дорогой товар: {max_pritces}")
+
+min_prices = min(prices)
+print(f"самый дешевый товар: {min_prices}")
+
+total_sum = sum(prices)
+print(f"общая стоимость всех товаров: {total_sum}")
+
+average_prices = total_sum / len(prices)
+print(f"средняя цена товара: {average_prices}")
+
+3)
+users = ('admin', 'guest', 'user', 'bot')
+users[2] = 'moderator'
+users[-1] = 'superadmin'
+users.append('newbie')
+print(users)
+
+4)
+marks = [5, 4, 3, 5, 2, 5, 4, 3, 5, 5]
+
+count_fives = 0
+count_twos = 0
+
+for mark in marks
+  if mark == 5:
+    count_fives += 1
+  elif mark == 2:
+    count_twos += 1
+
+print(f"количество пятерок: {count_fives}")
+print(f"количество двоек: {count_twoes}")
+
+5)
+data = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+
+first_three = data[:3]
+print(f"первая тройка чисел: {first_three}")
+
+last_three = data[-3:]
+print(f"последняя тройка чисел: {last_three}")
+
+reversed_three = data[::-1]
+print(f"список обратном порядке: {reversed_three}")
+
+odd_indexes = data[1::2]
+print(f"элементы с нечетными индексами: {odd_indexes}")
