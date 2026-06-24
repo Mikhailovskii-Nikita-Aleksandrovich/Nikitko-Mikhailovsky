@@ -1,0 +1,13 @@
+class Vampire:
+    def __init__ (self, name, bloodlust):
+        self.__name = name
+        self.__bloodlust = bloodblust
+        
+    def get_bloodblust(self):
+        return self.__bloodblost
+    
+    def set_bloodblust(self, valut):
+        if 0 <= value <= 100:
+            self.__bloodblust = value
+        else:
+            print("Ошибка: уровень жажды крови должен быть от 0 до 100!")
